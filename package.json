@@ -1,0 +1,34 @@
+{
+  "name": "barejs",
+  "version": "0.0.1",
+  "description": "Bare minimum content to run and debug any js in your local",
+  "main": "index.js",
+  "author": "metehansenol",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --watch ./src/index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metehansenol/barejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/metehansenol/barejs/issues"
+  },
+  "homepage": "https://github.com/metehansenol/barejs#readme",
+  "keywords": [
+    "bare",
+    "minimal",
+    "javascript",
+    "template",
+    "boilerplate"
+  ]
+}
